@@ -1,0 +1,19 @@
+
+
+                                               ===  Statement  ===
+
+          Insert, Update, Select sorgularının her seferinde yeniden derlenip (aynı sorgular olsa dahi) çalıştırıldığı yapıdır.
+
+
+                                               ===  PreparedStatement  ===
+
+           Daha önce çalıştırılmış bir sorgu, tekrar çalıştırılıyorsa, yeniden derlemesine gerek kalmadan eski derlenmiş sorgu
+          kullanılır. Bunun için set isminde bir methodumuz vardır.
+
+           PreparedStatement nesnesi, ile sorgu bir kez ön derlemeden geçtikten sonra set() metodu ile sorgunun tekrar derlenmesine
+          gerek kalmaksızın gerektikçe çağrılabilmesidir.Sorguya eklenen bir değer için yer tutucu olarak bir soru işareti kullanılır.
+          Sorgu her çalıştığında bu değer değiştirilir.
+
+           Statement nesnesi J2EE bileşeni sorgunun derlenmeksizin, zaman kaybedilmeden çalıştırılması gerektiğinde kullanılır.
+          “executeQuery” methodu sorgu tarafından istenen veriyi “ResultSet” nesnesi olarak geri döndürür. “executeUpdate” methodu
+          “UPDATE” ve “DELETE” sql ifadeleri içeren sorguların çalıştırılmasında kullanılır.
