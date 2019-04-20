@@ -1,10 +1,5 @@
 
 
-                                               ===  Statement  ===
-
-          Insert, Update, Select sorgularının her seferinde yeniden derlenip (aynı sorgular olsa dahi) çalıştırıldığı yapıdır.
-
-
                                                ===  PreparedStatement  ===
 
            Daha önce çalıştırılmış bir sorgu, tekrar çalıştırılıyorsa, yeniden derlemesine gerek kalmadan eski derlenmiş sorgu
@@ -17,3 +12,26 @@
            Statement nesnesi J2EE bileşeni sorgunun derlenmeksizin, zaman kaybedilmeden çalıştırılması gerektiğinde kullanılır.
           “executeQuery” methodu sorgu tarafından istenen veriyi “ResultSet” nesnesi olarak geri döndürür. “executeUpdate” methodu
           “UPDATE” ve “DELETE” sql ifadeleri içeren sorguların çalıştırılmasında kullanılır.
+
+
+                                                     ----  Driver ----
+
+          Bu interface, veritabanı sunucusu ile iletişimi ele alır. Driver nesneleri ile çok nadir etkileşim kurabilirsiniz.
+          Bunun yerine, bu türün nesnelerini yöneten DriverManager nesnesini kullanırsınız.
+
+                                                     --- Connection ----
+
+          Bu interface, bütün metotları ile veritabanına irtibat kurmak için kullanılır.
+
+                                                     --- Statement  ----
+
+          SQL ifadelerini veritabanına göndermek için bu interface’ten oluşturulan nesneleri kullanırsınız.
+
+                                                     ---- ResultSet ---
+
+          Statements nesnelerini kullanarak SQL sorgusunu çalıştırdıktan sonra veritabanından alınan verileri tutmak için bu
+         nesneler kullanılır. Onu taşımanıza izin veren bir yineleyici görevi görür.
+
+                                                     ---  SQLException ---
+
+          Bu sınıf, bir veritabanı uygulamasında ortaya çıkan hataları ele alır
