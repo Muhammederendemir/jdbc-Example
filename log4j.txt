@@ -10,18 +10,5 @@
 2019-04-20 01:33:47 ERROR PersonDAO:124 - execute functionunda hata meydana geldi  HATA :java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE personId=7' at line 1
 2019-04-20 01:33:47 INFO  PersonDAO:106 - 7 numaralı Person silinmistir
 2019-04-20 01:36:22 INFO  PersonDAO:55 - Veritababı bağlantısı kurulmuştur
-2019-04-20 01:36:22 INFO  PersonDAO:71 - Veritabanından veri çekilmiştir
-2019-04-20 01:36:22 ERROR PersonDAO:124 - execute functionunda hata meydana geldi  HATA :java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE personId=7' at line 1
-2019-04-20 01:36:22 INFO  PersonDAO:106 - 7 numaralı Person silinmistir
-2019-04-20 01:37:20 INFO  PersonDAO:55 - Veritababı bağlantısı kurulmuştur
-2019-04-20 01:37:20 ERROR PersonDAO:124 - execute functionunda hata meydana geldi  HATA :java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE personId=7' at line 1
-2019-04-20 01:37:20 INFO  PersonDAO:106 - 7 numaralı Person silinmistir
-2019-04-20 01:38:06 INFO  PersonDAO:55 - Veritababı bağlantısı kurulmuştur
-2019-04-20 01:38:06 ERROR PersonDAO:124 - execute functionunda hata meydana geldi  HATA :java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE personId='7'' at line 1
-2019-04-20 01:38:06 INFO  PersonDAO:106 - 7 numaralı Person silinmistir
-2019-04-20 01:39:09 INFO  PersonDAO:55 - Veritababı bağlantısı kurulmuştur
-2019-04-20 01:39:09 INFO  PersonDAO:106 - 7 numaralı Person silinmistir
-2019-04-20 01:40:05 INFO  PersonDAO:55 - Veritababı bağlantısı kurulmuştur
-2019-04-20 01:40:05 INFO  PersonDAO:106 - 6 numaralı Person silinmistir
 2019-04-20 09:17:07 INFO  PersonDAO:55 - Veritababı bağlantısı kurulmuştur
 2019-04-20 09:17:08 INFO  PersonDAO:71 - Veritabanından veri çekilmiştir
