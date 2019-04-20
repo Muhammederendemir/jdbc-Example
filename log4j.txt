@@ -3,12 +3,3 @@
 2019-04-20 01:22:54 INFO  PersonDAO:87 - Person güncellenmiştir
 2019-04-20 01:33:02 INFO  PersonDAO:55 - Veritababı bağlantısı kurulmuştur
 2019-04-20 01:33:02 INFO  PersonDAO:71 - Veritabanından veri çekilmiştir
-2019-04-20 01:33:02 ERROR PersonDAO:124 - execute functionunda hata meydana geldi  HATA :java.sql.SQLException: No value specified for parameter 2
-2019-04-20 01:33:02 INFO  PersonDAO:106 - 7numaralı Person silinmistir
-2019-04-20 01:33:47 INFO  PersonDAO:55 - Veritababı bağlantısı kurulmuştur
-2019-04-20 01:33:47 INFO  PersonDAO:71 - Veritabanından veri çekilmiştir
-2019-04-20 01:33:47 ERROR PersonDAO:124 - execute functionunda hata meydana geldi  HATA :java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE personId=7' at line 1
-2019-04-20 01:33:47 INFO  PersonDAO:106 - 7 numaralı Person silinmistir
-2019-04-20 01:36:22 INFO  PersonDAO:55 - Veritababı bağlantısı kurulmuştur
-2019-04-20 09:17:07 INFO  PersonDAO:55 - Veritababı bağlantısı kurulmuştur
-2019-04-20 09:17:08 INFO  PersonDAO:71 - Veritabanından veri çekilmiştir
